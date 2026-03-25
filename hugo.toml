@@ -1,0 +1,49 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'Conor Brennan'
+theme = 'yassi'
+
+[params]
+  math = true
+
+
+  # Yassi Params
+  CoverImage = "/images/sudo_square.png"  # or your own image
+  CoverImageWidth = 150
+
+# Theme Colors
+  # Accent color used for site title underline, timeline bullets, and project cards
+  accentColor = "#47b1db"  # Light blue (default)
+  accentColorDark = "#5fc9f0"  # Lighter blue for dark mode
+  
+  # Project display mode
+  useProjectCarousel = true  # or false for grid
+  
+  # Search
+  enableSearch = true  # Enable site search with Fuse.js
+  
+  # Timeline Starting Point (optional)
+  timelineStart = "Let there be site"
+  # timelineStartSubText = "Additional context or details..."  # optional
+  timelineStartDate = "Mar 2026"
+  
+  # Social Media Links
+  [params.social]
+    github = "https://github.com/conor-brennan"
+    linkedin = "https://linkedin.com/in/c-bren"
+  
+  # Giscus Comments (optional)
+  # get that from the website later if you still want this
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    inline = [['$', '$']]
+    block = [['$$', '$$']]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]  # Required for search

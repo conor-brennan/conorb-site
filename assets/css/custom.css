@@ -1,0 +1,15 @@
+article table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+article th,
+article td {
+  border: 1px solid var(--text-primary, #ccc);
+  padding: 0.5em 0.75em;
+}
+
+article th {
+  background: rgba(0, 0, 0, 0.05);
+}
