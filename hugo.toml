@@ -1,4 +1,4 @@
-baseURL = 'https://conor-brennan.github.io/conorb-site/'
+baseURL = 'https://github.com/conor-brennan/conorb-site'
 locale = 'en-us'
 title = 'Conor Brennan'
 theme = 'yassi'
