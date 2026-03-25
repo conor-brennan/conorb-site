@@ -47,3 +47,7 @@ theme = 'yassi'
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]  # Required for search
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
