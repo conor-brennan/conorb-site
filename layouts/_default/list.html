@@ -16,7 +16,8 @@
       {{ end }}
       <a href="{{ $projectUrl }}" {{ if $isExternal }}target="_blank" rel="noopener noreferrer" {{ end }}>
         {{ if .Params.main_image }}
-        <div class="featured-image" style="background-image: url('{{ .Params.main_image | relURL }}');">
+        {{ $img := .Params.main_image | relURL }}
+        <div class="featured-image" style="background-image: url('{{ $img }}');">
           <div class="featured-overlay">
             <h3 class="featured-card-title">
               {{ .Title }}
@@ -49,7 +50,8 @@
       <a href="{{ .RelPermalink }}" class="home-list-link">
         <span class="home-list-date">{{ .Date | time.Format ":date_medium" }}</span>
         {{ if .Params.main_image }}
-        <div class="home-list-image" style="background-image: url('{{ .Params.main_image | relURL }}');"></div>
+        {{ $img := .Params.main_image | relURL }}
+        <div class="home-list-image" style="background-image: url('{{ $img }}');"></div>
         {{ end }}
         <div class="home-list-content">
           <div class="home-list-meta">

@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Conor Brennan</title>
-    <link>https://example.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Conor Brennan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>F*** Fours - An Exploration</title>
-      <link>https://example.org/posts/fuck_fours/</link>
+      <link>http://localhost:1313/posts/fuck_fours/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/fuck_fours/</guid>
+      <guid>http://localhost:1313/posts/fuck_fours/</guid>
       <description>What if we got rid of the number 4?</description>
     </item>
     <item>
-      <title>Sample Project</title>
-      <link>https://example.org/projects/sample_project/</link>
+      <title>Sample Post</title>
+      <link>http://localhost:1313/posts/sample_post/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/projects/sample_project/</guid>
+      <guid>http://localhost:1313/posts/sample_post/</guid>
+      <description>An example post about my Obsidian workflow</description>
+    </item>
+    <item>
+      <title>Sample Project</title>
+      <link>http://localhost:1313/projects/sample_project/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sample_project/</guid>
       <description>Counting as high as I can</description>
     </item>
   </channel>
