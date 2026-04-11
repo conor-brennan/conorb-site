@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/posts/fuck_fours/</guid>
       <description>What if we got rid of the number 4?</description>
     </item>
-    <item>
-      <title>Sample Post</title>
-      <link>http://localhost:1313/posts/sample_post/</link>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sample_post/</guid>
-      <description>An example post about my Obsidian workflow</description>
-    </item>
   </channel>
 </rss>

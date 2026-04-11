@@ -5,9 +5,10 @@ summary = "Counting as high as I can"
 main_image = "/images/sudo_square.png"
 categories = ["counting"]
 tags = ["sample", "placeholder"]
+draft = true
 
 [params]
-  featured = true
+  featured = false
   weight = 10  # Order in featured section (lower = first)
   showInPostList = true
 +++

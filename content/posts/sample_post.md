@@ -5,6 +5,7 @@ summary = "An example post about my Obsidian workflow"
 main_image = "/images/sudo_square.png"  # optional
 tags = ["placeholder", "sample"]
 categories = ["Writing"]
+draft = true
 +++
 
 Here is some information about my Obsidian workflow:

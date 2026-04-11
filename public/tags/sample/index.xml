@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/posts/sample_post/</guid>
       <description>An example post about my Obsidian workflow</description>
     </item>
-    <item>
-      <title>Sample Project</title>
-      <link>http://localhost:1313/projects/sample_project/</link>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/sample_project/</guid>
-      <description>Counting as high as I can</description>
-    </item>
   </channel>
 </rss>

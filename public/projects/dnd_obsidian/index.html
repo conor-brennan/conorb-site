@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Posts | Conor Brennan</title>
+<title>DND in Obsidian | Conor Brennan</title>
 
     <link rel="stylesheet" href="http://localhost:1313/css/main.css">
 
@@ -66,13 +66,13 @@
       <a href="http://localhost:1313/">Home</a>
     </li>
     <li>
-      <a aria-current="page" class="active" href="http://localhost:1313/posts/">Posts</a>
+      <a href="http://localhost:1313/posts/">Posts</a>
     </li>
     <li>
       <a href="http://localhost:1313/tags/">Tags</a>
     </li>
     <li>
-      <a href="http://localhost:1313/projects/">Projects</a>
+      <a aria-current="true" class="ancestor" href="http://localhost:1313/projects/">Projects</a>
     </li>
     </ul>
   </nav>
@@ -120,47 +120,75 @@
   </header>
   <main class="site-main">
     
-<div class="content">
-  <h1>Posts</h1>
-  <p>This is where I put my posts :)</p>
 
 
-  
-  
-  <ul class="home-list">
+
+
+<article class="post-article">
+  <header class="post-header">
+    <h1 class="post-title">DND in Obsidian</h1>
+    <div class="post-meta">
+      <time datetime="2026-04-11T00:00:00&#43;00:00">April 11, 2026</time>
+      <span class="post-meta-separator">•</span>
+      <span>3 min read</span>
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Categories:</div>
+    <ul class="terms-list">
+        <li class="terms-item"><a href="http://localhost:1313/categories/obsidian/">Obsidian</a></li>
+    </ul>
+  </div>
+
+      
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Tags:</div>
+    <ul class="terms-list">
+        <li class="terms-item"><a href="http://localhost:1313/tags/obsidian/">Obsidian</a></li>
+        <li class="terms-item"><a href="http://localhost:1313/tags/dnd/">DND</a></li>
+        <li class="terms-item"><a href="http://localhost:1313/tags/open-source/">Open Source</a></li>
+        <li class="terms-item"><a href="http://localhost:1313/tags/python/">Python</a></li>
+    </ul>
+  </div>
+
+      
+    </div>
     
-    <li class="home-list-div">
-      <a href="http://localhost:1313/posts/fuck_fours/" class="home-list-link">
-        <span class="home-list-date">Mar 24, 2026</span>
-        
-        
-        <div class="home-list-image" style="background-image: url('/images/fourgraph.png');"></div>
-        
-        <div class="home-list-content">
-          <div class="home-list-meta">
-            <span class="home-list-duration">6 min read</span>
-          </div>
-          <h3 class="home-list-title">F*** Fours - An Exploration</h3>
-          
-          <p class="home-list-summary">What if we got rid of the number 4?</p>
-          
-          
-          <div class="home-list-tags">
-            
-            <span class="home-list-tag">Math Exploration</span>
-            
-            <span class="home-list-tag">Writing</span>
-            
-          </div>
-          
-        </div>
-      </a>
-    </li>
+    <p class="post-summary">Creating an Obsidian-ified DND wiki</p>
     
-  </ul>
+  </header>
+
+  
+  <div class="post-image">
+    <img src="http://localhost:1313/images/dnd_obsidian.png" alt="DND in Obsidian">
+  </div>
   
 
-</div>
+  <div class="post-content">
+    <p><em>Cover image sourced from <a href="https://www.reddit.com/user/beau-tie/">u/beau-tie</a> on <a href="https://www.reddit.com/r/ObsidianMD/comments/18gurdg/obsidian_dd_app_icon_oc/">Reddit</a></em></p>
+<p><em>TL;DR</em>: I have built a player&rsquo;s wiki Obsidian vault for easy access to information mid-session, eliminating the need to wait for slow-loading pages on spotty internet connections. Get it from my <a href="https://github.com/conor-brennan/dnd-obsidian-vault">GitHub</a>.</p>
+<h1 id="background">Background</h1>
+<p>I&rsquo;ve only been playing DND since early 2025 but my friends and I got hooked. We began playing nearly every week, having fun messing with NPCs and nearly getting our entire party killed in a cave brawl. Early on, I ended up falling into the role of note-taker for our party. I began on paper but started looking into alternate solutions. This is when I stumbled across Obsidian.</p>
+<p>Obsidian ended up having a lot of really handy features for my use case. Templates let me cut down on writing boilerplate at the start of every session, workspace layouts let me save different views of my notes for quick access, and (most importantly) linking to pages with square brackets [[like this]] let me quickly see all of the references I have ever made to a topic, allowing me to make connections I otherwise may have missed with paper notes.</p>
+<h1 id="the-srd-vault">The SRD vault</h1>
+<p>Internal links in Obsidian became even more powerful when I found the <a href="https://www.dndbeyond.com/srd">DND SRD</a> as an <a href="https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Community+Supported+Games/DnD+5e/DnD+5e">Obsidian vault</a>, allowing me to not only link to my notes on people and places in my campaign, but also link to anything in the base game of DND, like spells, classes, monsters, and much more! This made it almost completely unnecessary for me to have a browser open at all as I could now access all of my feat and spell information without much extra work.</p>
+<p>That would have been the case, at least, if the SRD had all of the information I needed. See, the SRD only contains information on the base game of DND. There are many add-ons that exist for DND, such as <a href="https://www.dndbeyond.com/sources/dnd/tcoe">Tasha&rsquo;s Cauldron of Everything</a> and <a href="https://www.dndbeyond.com/sources/dnd/xgte">Xanathar&rsquo;s Guide to Everything</a>, that extend the base game with new classes, items, races, and much more. The SRD vault was a great start, but it didn&rsquo;t have everything I needed.</p>
+<p>So, I decided I would build my own using the publicly available information on the <a href="https://dnd5e.wikidot.com/">DND Wiki</a>. This was the main resource we used to build our characters so it should be a sufficient starting point for my personal vault.</p>
+<h1 id="building-my-own-vault">Building my own vault</h1>
+<p>The scraper works in a few stages: first, it crawls the wiki&rsquo;s front page to discover every relevant link. Then for each page, it parses the HTML to extract only the content that matters, converts it to Markdown, and replaces all internal web links into Obsidian&rsquo;s [[internal link]] format. Some pages like spell lists and item categories needed special handling for tabbed tables or additional page creation. The final output is a .md file per entry that gets written into the vault.</p>
+<p>Unlike the SRD vault, this vault uses note metadata to take advantage of newer Obsidian features like bases and community plugins like <a href="https://github.com/blacksmithgu/obsidian-dataview">Dataview</a>.</p>
+<p>This vault only contains information for players and does not include everything that you would need as a DM. For a more complete system for DMs, I would recommend combining this vault with the SRD vault.</p>
+<p>The vault is now available for download on my <a href="https://github.com/conor-brennan/dnd-obsidian-vault">GitHub page</a>.</p>
+
+  </div>
+
+  
+</article>
+
 
   </main>
   <footer class="site-footer">
